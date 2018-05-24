@@ -23,11 +23,6 @@ document.addEventListener("DOMContentLoaded",()=>{
 })
 
 $(document).ready(()=>{
+console.log($(document).scrollTop())
 
-if($("#IntroPage").scrollTop()>140){
-$("#Navbar").removeClass("hidden")
-}
-else{
-  $("#Navbar").addClass("hidden")
-}
 })
