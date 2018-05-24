@@ -19,10 +19,12 @@ document.addEventListener("DOMContentLoaded",()=>{
  
     loop:true
   });
-
+  AOS.init({
+    disable: 'mobile',
+    offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+  });
 })
 
-$(document).ready(()=>{
-console.log($(document).scrollTop())
-
-})
