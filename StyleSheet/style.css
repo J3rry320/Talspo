@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons"
 );
 @import url("https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" );
+@import url("https://cdnjs.cloudflare.com/ajax/libs/magic/1.1.0/magic.min.css");
 .parallax-container{
     height:100vh;
 }

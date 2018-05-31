@@ -5,8 +5,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="StyleSheet/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+
     <title>Tralspo</title>
 </head>
 
@@ -70,18 +72,36 @@
         </div>
     </header>
     <main class="hidden" id="main">
-        <div class="row fullHeight">
-            <div class="col m6 s12">
-                <h3 class="black-text  padding-top left-align">Welcome to Talspo</h3>
-                <p class="big-text black-text left-align">Magna nostrud tempor exercitation voluptate laborum cillum ullamco excepteur enim cupidatat et laborum.
-                </p>
-                <button class="btn black waves-effect waves-red">Find Talent</button>
-                <button class="btn black waves-effect waves-red">Search Jobs</button>
+        <section class="black fullHeight">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="green-text  padding-top center-align">Welcome to Talspo</h2>
+                    <p class="flow-text white-text center-align">Magna nostrud tempor exercitation voluptate laborum cillum ullamco excepteur enim cupidatat et laborum.
+                    </p>
+                    <center>
+                        <button class="btn white black-text  waves-effect waves-red">Find Talent</button>
+                        <button class="btn white black-text waves-effect waves-red">Search Jobs</button>
+                    </center>
+                    <br>
+                    <center>
+                        <div id="searchButton">
+                            <button class=" btn ">
+                                <i class="material-icons">search</i>
+                            </button>
+                        </div>
+
+                        <div class="hidden input-field " id="searchBar">
+                            <input id="disabled" type="text" class="validate">
+                            <label for="disabled">Your Search Query</label>
+                        </div>
+                    </center>
+
+                </div>
+
             </div>
-            <div class="col m6 s12 ">
-                <img src="http://www.pngmart.com/files/4/Technology-PNG-Transparent.png" class="responsive-img hide-on-small-only" alt="Welcome To Talspo">
-            </div>
-        </div>
+        </section>
+
+    
         <div class="row">
             <div class="col  m6 s12">
 
