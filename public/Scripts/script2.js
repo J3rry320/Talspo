@@ -2,10 +2,7 @@
 
 $(document).ready(
 ()=>{
-    $("#tourButton").bind("click",()=>{
-        $("#main,#footer").removeClass("hidden")
-        $("#videoHeader").addClass("hidden")
-    }) 
+  
     $("#searchButton").bind("click",()=>{
       
         $("#searchButton").addClass("hidden")
