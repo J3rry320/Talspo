@@ -24,6 +24,19 @@
     color: #FFF;
     cursor: pointer;
   }
+  .vertical-line{
+    border-left:1px solid #000000;
+    
+  } 
+  input{
+    color:#fff
+  }
+  .input-field label {
+    color: #fff;
+  }
+  .input-field{
+    color:#fff;
+  }
   .loginBtn:before {
     content: "";
     box-sizing: border-box;

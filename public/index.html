@@ -59,7 +59,7 @@
 
     <main>
         <div class="row gradient-background">
-            <div class="col s12">
+            <div class="col s12 m6">
                 <h3 class="white-text center-align padding-top">
                     Explore.Spot.Connect
                 </h3>
@@ -68,41 +68,79 @@
                     find the best minds to back them for their dream project.
 
                 </p>
-                <center id="LoginButton">
-                    <button type="button" class="loginBtn loginBtn--google" id="GoogleLogin">
-                        Login with Google
-                    </button>
-                    <button type="button" class="loginBtn loginBtn--facebook" id="FacebookLogin">
-                        Login with Facebook
-                    </button>
-                </center>
-                <div class="hidden" id="LogOut">
-                        <button type="button"  class=" btn black white-text">Log Out</button>
-                </div>
-              
+
+
+
 
             </div>
-          
+            <div class="col m6 s12">
+
+                <div class="valign-wrapper">
+                    <div id="LoginButton">
+                        <br>
+                        <button type="button" class="loginBtn loginBtn--google" id="GoogleLogin">
+                            Login with Google
+                        </button>
+                        <br>
+                        <button type="button" class="loginBtn loginBtn--facebook" id="FacebookLogin">
+                            Login with Facebook
+                        </button>
+                    </div>
+
+
+                    <div class="vertical-line">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input  id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="password" type="password" class="validate">
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+                            <button class="btn black white-text">Sign Up</button>
+                        </form>
+                    </div>
+                    <div class="hidden" id="LogOut">
+                        <button type="button" class=" btn black white-text">Log Out</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
-<section class="hidden black" id="UserDetails">
-    <div class="row">
-<div class="col s6">
-<img id="profilePic" class="circle responsive-img" src="">
-</div>
-<div class="col s6">
-<h3 class="white-text" id="UserName">
-   
-</h3>
-</div>
-    </div>
-</section>
+        <section class="hidden black" id="UserDetails">
+            <div class="row">
+                <div class="col s6">
+                    <img id="profilePic" class="circle responsive-img" src="">
+                </div>
+                <div class="col s6">
+                    <h3 class="white-text" id="UserName">
+
+                    </h3>
+                </div>
+            </div>
+        </section>
 
 
     </main>
 
-    
+
 
     <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
