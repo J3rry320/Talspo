@@ -1,12 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   var config = {
-    apiKey: "AIzaSyCCcmRt9w3udCIUzqhiW8wIZLyFNBn22fk",
-    authDomain: "talspo-c6db3.firebaseapp.com",
-    databaseURL: "https://talspo-c6db3.firebaseio.com",
-    projectId: "talspo-c6db3",
-    storageBucket: "talspo-c6db3.appspot.com",
-    messagingSenderId: "455155612769"
+    configOption: "Hey As I cannot share my api key here so added this line up Here You add the api key database url and other properties that will let firebase know this is oyur project"
   };
   firebase.initializeApp(config);
   //Google Login
@@ -85,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector("#UserDetails").classList.add("hidden");
       document.querySelector("#LogOut").classList.add("hidden");
     }
-    });
+  });
   //Log out Button
   document.querySelector("#LogOut").addEventListener("click", () => {
     firebase.auth().signOut().then(function () {
