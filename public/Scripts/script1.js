@@ -1,12 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   var config = {
-    apiKey: "AIzaSyCCcmRt9w3udCIUzqhiW8wIZLyFNBn22fk",
-    authDomain: "talspo-c6db3.firebaseapp.com",
-    databaseURL: "https://talspo-c6db3.firebaseio.com",
-    projectId: "talspo-c6db3",
-    storageBucket: "talspo-c6db3.appspot.com",
-    messagingSenderId: "455155612769"
+
   };
   firebase.initializeApp(config);
   //Google Login
